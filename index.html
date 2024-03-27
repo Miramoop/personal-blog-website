@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name = "viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mira's Interests</title>
+    <title>Miramoop's Blog</title>
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"> <!--Favicon-->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet"> 
     <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
@@ -14,7 +14,7 @@
     <link rel="manifest" href="/site.webmanifest">
 
     <link rel="stylesheet" href="styles.css"> <!--StyleSheet-->
-    <script src="main.js"></script> <!--Javascript-->
+    <!-- <script src="main.js"></script> Javascript -->
 
 </head>
 
@@ -24,13 +24,18 @@
         <div class="container">
             <nav>
                 <img src="img/logo.png" class="logo">
-                <ul id="sidemenu">
+                <ul class="side-menu">
                     <li><a href="index.html">Home</a></li> 
-                    <!-- <li><a href="about.html">About</a></li>
-                    <li><a href="blogshomepage.html">Blogs</a></li> -->
-                    <i class="fas ri-close-line"></i>
+                    <li><a href="blog1.html">Blog 1</a></li>
+                    <li><a href="blog2.html">Blog 2</a></li>
+                    <!-- <i class="fas ri-close-line"></i> -->
                 </ul>
-                <i class="fas ri-menu-line" onclick="closemenu()"></i> 
+                <div class="hamburger-menu">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <!-- <i class="fas ri-menu-line" onclick="closemenu()"></i>  -->
             </nav>
         </div>
     </div>
@@ -68,6 +73,6 @@
         </div>
     </div>
 </div>
-    
+    <script src="main.js"></script> <!--Javascript-->
 </body>
 </html>
