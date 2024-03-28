@@ -16,7 +16,7 @@ body{
 
 #header{
     width:100%;
-    height:6vh;
+    height:10vh;
     /* background-image: url(img/background.png); */
     border: 2px solid gray;
     border-radius: 5px;
@@ -39,8 +39,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    /* padding: 30px; */
-    /* background: #471f6d; */
+    padding: 30px; 
     z-index: 2;
 }
 
@@ -228,6 +227,7 @@ nav ul li a:hover::after{
 .sub-title{
     font-size: 30px;
     font-weight: 500;
+    padding: 1rem 0px;
     color: #ffff;
 }
 
