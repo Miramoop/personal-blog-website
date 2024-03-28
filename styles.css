@@ -17,14 +17,13 @@ body{
 #header{
     width:100%;
     height:10vh;
-    /* background-image: url(img/background.png); */
+    background-image: url(img/background.png);
     border: 2px solid gray;
     border-radius: 5px;
-    border-top-style: inset;
-    border-right-style: inset;
-    border-bottom-style:inset;
-    border-left-style: inset;
-    background: #471f6d;
+    border-top-style: double;
+    border-right-style: double;
+    border-bottom-style: double;
+    border-left-style: double;
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -199,7 +198,8 @@ nav ul li a:hover::after{
 #about{
     padding: 80px 0;
     color: white;
-    background-image: url(img/background.png); 
+    /* background-image: url(img/background.png);  */
+    background-image: linear-gradient(to bottom right, rgb(84, 82, 128),rgb(142,144,204));
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -331,7 +331,8 @@ nav ul li a:hover::after{
 /*--Portfolio--*/
 #portfolio{
     padding: 50px 0;
-    background-image: url(img/background.png); 
+    /* background-image: url(img/background.png);  */
+    background-image: linear-gradient(to bottom right, rgb(84, 82, 128),rgb(142,144,204));
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -361,7 +362,7 @@ nav ul li a:hover::after{
 .layer{
     width: 100%;
     height: 0;
-    background: linear-gradient(rgba(0,0,0,0.6), #680e70);
+    background: linear-gradient(rgba(0,0,0,0.6), rgb(132,161,201));
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -429,7 +430,13 @@ nav ul li a:hover::after{
     padding: 25px 0; 
     background: #2b2b2b;
     font-weight: 300;
-    margin-top: 20px;
+    margin-top: 0px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    border-top-style: double;
+    border-right-style: double;
+    border-bottom-style: double;
+    border-left-style: double;
 }
 
 .copyright i{
