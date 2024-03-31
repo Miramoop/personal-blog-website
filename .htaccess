@@ -1,0 +1,8 @@
+RewriteEngine On
+
+RewriteRule ^index$ index.html [L]
+RewriteRule ^about$ about.html [L]
+RewriteRule ^blogs$ blogs.html [L]
+RewriteRule ^blog1$ blog1.html [L]
+RewriteRule ^blog2$ blog2.html [L]
+RewriteRule ^photos$ photos.html [L]
