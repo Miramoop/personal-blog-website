@@ -194,28 +194,61 @@ nav ul li a:hover::after{
 
 /* HomePage */
 #homepage{
-    padding: 300px 0;
+    padding: 80px 0;
     color: white;
-    background-image: linear-gradient(to bottom right, rgb(73, 116, 146),rgb(140, 184, 218));
+    /* background-image: url(img/background.png);  */
+    background-image: linear-gradient(to bottom right, rgb(84, 82, 128),rgb(142,144,204));
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
 }
 
-
 #homepage-header{
     width:100%;
-    height:100vh;
+    height:14vh;
     background-image: url(img/background.png);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
+    overflow: hidden;
 }
 
-.welcome-title{
-    color:white;
-    text-align: center;
-    padding: 25vh;
+.text-container{
+    min-height: 100vh;
+    width: 450px;
+    overflow: hidden;
+}
+
+.text-container .text{
+    position: relative;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.text-container .text.first-text{
+    color: white;
+}
+
+.text-container .text.second-text:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    border-left: 2px solid white;
+    animation: animate 4s steps(12) infinite;
+}
+
+@keyframes animate{
+    40%, 60%{
+        left: calc(100% + 4px);
+    }
+    100%{
+        left: 0%;
+    }
 }
 
 /*--PhotoPage--*/

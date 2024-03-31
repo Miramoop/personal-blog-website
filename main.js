@@ -17,6 +17,24 @@ sideMenuItems.foreach((link) => {
     });
 });
 
+//used for typewriter text on home page
+// const text = document.querySelector(".second-text");
+
+// const textLoad = () => {
+//     setTimeout(() => {
+//         text.textContent = "CompSci Student";
+//     }, 0);
+//     setTimeout(() => {
+//         text.textContent = "Blogger";
+//     }, 4000);
+//     setTimeout(() => {
+//         text.textContent = "Programmer";
+//     }, 8000);
+// }
+
+// textLoad();
+// setInterval(textLoad, 12000);
+
 
 // used for tab links and such
 var tablinks = document.getElementsByClassName("tab-links");
@@ -44,4 +62,6 @@ function openmenu(){
 function closemenu(){
     sidemenu.style.right = "-200px";
 }
+
+
 
